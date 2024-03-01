@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MBMAKİNEPLASTİK</title>
+    <title><?php echo "$sayfa";?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -44,7 +44,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
      <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
-    <img src="img\site_logosu.png" alt="MakinePlastik Logo" class="logo-img">
+    <img src="img\logo1.png" alt="MakinePlastik Logo" class="logo-img">
     <h1 class="mb-0 text-primary text-uppercase">Makine<span style="color:#6C7293 ;">Plastik</span></h1>
     <style>
         .navbar-brand {
@@ -66,7 +66,7 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.php" class="nav-item nav-link ">Anasayfa</a>
                 <a href="about.php" class="nav-item nav-link">Hakkımızda</a>
-                <a href="service.php" class="nav-item nav-link">Servislerimiz</a>
+                <a href="service.php" class="nav-item nav-link">Hizmetler</a>
                 
                 <a href="contact.php" class="nav-item nav-link">İletişim</a>
                 <a id="teklifAl" class="nav-item nav-link" style="color: orangered;" href="#">Teklif Al</a>

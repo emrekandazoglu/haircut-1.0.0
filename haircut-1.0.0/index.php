@@ -1,4 +1,5 @@
 <?php
+    $sayfa="Ana Sayfa";
     include "inc\head.php";
    
     
@@ -19,7 +20,7 @@
                         <h4 class="text-white text-uppercase mb-4 animated slideInDown"><i
                                 class="fa fa-map-marker-alt text-primary me-3"></i>Kirazlık Mah. Örnek Sanayi Sitesi 1500 Cadde No 2/2,Tekkeköy/Samsun</h4>
                         <h4 class="text-white text-uppercase mb-4 animated slideInDown"><i
-                                class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</h4>
+                                class="fa fa-phone-alt text-primary me-3"></i>+90 553 823 55 14</h4>
                     </div>
                 </div>
             </div>
@@ -31,7 +32,7 @@
                         <h4 class="text-white text-uppercase mb-4 animated slideInDown"><i
                                 class="fa fa-map-marker-alt text-primary me-3"></i>Kirazlık Mah. Örnek Sanayi Sitesi 1500 Cadde No 2/2,Tekkeköy/Samsun</h4>
                         <h4 class="text-white text-uppercase mb-4 animated slideInDown"><i
-                                class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</h4>
+                                class="fa fa-phone-alt text-primary me-3"></i>+90 553 823 55 14</h4>
                     </div>
                 </div>
             </div>

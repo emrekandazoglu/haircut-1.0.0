@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>HairCut - Hair Salon HTML Template</title>
+    <title>MBMAKİNEPLASTİK</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -64,14 +64,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php" class="nav-item nav-link ">Home</a>
-                <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="service.php" class="nav-item nav-link">Service</a>
+                <a href="index.php" class="nav-item nav-link ">Anasayfa</a>
+                <a href="about.php" class="nav-item nav-link">Hakkımızda</a>
+                <a href="service.php" class="nav-item nav-link">Servislerimiz</a>
                 
-                <a href="contact.php" class="nav-item nav-link">Contact</a>
-                <a href="whatsapp://send?phone=+905511393700" class="nav-item nav-link" style="color: orangered;">Appointment</a>
+                <a href="contact.php" class="nav-item nav-link">İletişim</a>
+                <a id="teklifAl" class="nav-item nav-link" style="color: orangered;" href="#">Teklif Al</a>
             </div>
             
         </div>
     </nav>
     <!-- Navbar End -->
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var link = document.getElementById('teklifAl');
+
+        // Eğer mobil cihazdan giriş yapılırsa
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            link.setAttribute('href', 'whatsapp://send?phone=+905511393700');
+        }
+        // Eğer masaüstü cihazdan giriş yapılırsa
+        else {
+            link.setAttribute('href', 'https://api.whatsapp.com/send?phone=905511393700');
+        }
+    });
+    </script>

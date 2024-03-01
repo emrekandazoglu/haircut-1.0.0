@@ -65,10 +65,9 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="h-100" style="min-height: 400px;">
                         <iframe class="google-map w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" style="filter: grayscale(100%) invert(92%) contrast(83%); border: 0;"></iframe>
-                    </div>
-                </div>
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d452.1611635933971!2d36.4079153!3d41.2417186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4087df7d551ced47%3A0x551a9ebdf740e015!2sKirazl%C4%B1k%2C%201500.%20Sk.%20No%3A2%2C%2055330%20Tekkek%C3%B6y%2FSamsun!5e1!3m2!1str!2str!4v1709280387479!5m2!1str!2str"
+        frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0" style="filter: grayscale(100%) invert(92%) contrast(83%); border: 0;"></iframe>
+
             </div>
         </div>
     </div>

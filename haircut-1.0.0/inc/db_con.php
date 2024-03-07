@@ -1,7 +1,6 @@
-
 <?php
-$host = '127.0.0.1'; //localhost
-$dbname = 'mbmakineplastik';
+$host = 'localhost:3307'; //localhost
+$dbname = 'site_db';
 $username = 'root';
 $password = '';
 $charset = 'utf8';
@@ -22,4 +21,3 @@ try {
     exit;
 }
 ?>
-
